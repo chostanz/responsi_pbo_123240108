@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 public class KaryawanController {
     FrameKaryawan view;
-    int selecteId;
+    int selectedId;
     
     public KaryawanController(FrameKaryawan view){
         this.view = view;
