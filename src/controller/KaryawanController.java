@@ -109,6 +109,7 @@ public class KaryawanController {
     public void delete(){
        try{
            String sql = "DELETE FROM karyawan where id = " selectedID;
+           conn = PreparedStatement(sql);
            JOptionPane.showMessageDialog(null, "Data berhasil dihapus");
            loadData();
            clearForm();
