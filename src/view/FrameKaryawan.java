@@ -282,6 +282,9 @@ public class FrameKaryawan extends javax.swing.JFrame {
             }
         });
     }
+    public javax.swing.JTable getTabelKaryawan(){
+        return TabelKaryawan;
+    }
     
     public javax.swing.JTextField getjTextFieldNama(){
         return jTextFieldNama;
