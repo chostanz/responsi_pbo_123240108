@@ -286,6 +286,9 @@ public class FrameKaryawan extends javax.swing.JFrame {
     public javax.swing.JTextField getjTextFieldNama(){
         return jTextFieldNama;
     }
+    public javax.swing.JComboBox getjComboBoxPosisi() {
+        return jComboBoxPosisi;
+    }
     public javax.swing.JTextField getjTextFieldKontribusi() {
         return jTextFieldKontribusi;
     }
